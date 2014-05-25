@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F89799AB192F292500A18EA9 /* Build configuration list for PBXProject "maptest" */;
+			buildConfigurationList = F89799AB192F292500A18EA9 /* Build configuration list for PBXProject "map_WebView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -448,7 +448,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F89799AB192F292500A18EA9 /* Build configuration list for PBXProject "maptest" */ = {
+		F89799AB192F292500A18EA9 /* Build configuration list for PBXProject "map_WebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F89799E0192F292500A18EA9 /* Debug */,
@@ -464,6 +464,7 @@
 				F89799E4192F292500A18EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F89799E5192F292500A18EA9 /* Build configuration list for PBXNativeTarget "maptestTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +473,7 @@
 				F89799E7192F292500A18EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
