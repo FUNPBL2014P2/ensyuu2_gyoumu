@@ -13,5 +13,6 @@
 - (IBAction)back:(id)sender;
 - (IBAction)next:(id)sender;
 - (IBAction)stop:(id)sender;
+- (IBAction)reload:(id)sender;
 
 @end
