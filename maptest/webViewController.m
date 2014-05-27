@@ -69,4 +69,8 @@
 - (IBAction)next:(id)sender {
     [self.mywebView goForward];
 }
+
+- (IBAction)stop:(id)sender {
+    [self.mywebView stopLoading];
+}
 @end
