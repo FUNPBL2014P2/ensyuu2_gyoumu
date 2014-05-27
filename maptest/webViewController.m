@@ -27,12 +27,28 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSURL *myURL = [NSURL URLWithString:@"http://www.yahoo.co.jp/"];
+    NSURLRequest *myURLReq = [NSURLRequest requestWithURL:myURL];
+    [self.mywebView loadRequest:myURLReq];
+    self.mywebView.delegate = self;
+
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (void)webViewDidStartLoad:(UIWebView *)webView{
+    [UIApplication
+     sharedApplication].networkActivityIndicatorVisible = YES;
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    [UIApplication
+     sharedApplication].networkActivityIndicatorVisible = NO;
 }
 
 /*
