@@ -56,6 +56,11 @@
                                             <action selector="back:" destination="Jm3-lk-WF2" id="jai-90-NGO"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem title="next" id="Hpk-8S-Eas">
+                                        <connections>
+                                            <action selector="next:" destination="Jm3-lk-WF2" id="ssI-rd-p11"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
