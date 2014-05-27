@@ -10,5 +10,6 @@
 
 @interface webViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIWebView *mywebView;
+- (IBAction)back:(id)sender;
 
 @end
