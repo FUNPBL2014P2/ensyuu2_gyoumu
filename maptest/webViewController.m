@@ -62,4 +62,7 @@
 }
 */
 
+- (IBAction)back:(id)sender {
+    [self.mywebView goBack];
+}
 @end
