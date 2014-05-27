@@ -68,6 +68,15 @@
     return annotationView;
 }
 
+- (void) mapView:(MKMapView*)_mapView annotationView:(MKAnnotationView*)annotationView calloutAccessoryControlTapped:(UIControl*)control {
+    // タップしたときの処理
+    // annotationView.annotation でどのアノテーションか判定可能
+    webViewController *ViewController2 = [self.storyboard instantiateViewControllerWithIdentifier:@"webV"];
+    [self presentViewController:ViewController2 animated:YES completion:nil];
+    
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
