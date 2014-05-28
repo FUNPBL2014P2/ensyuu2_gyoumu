@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import "webViewController.h"
 
 @interface ViewController : UIViewController<CLLocationManagerDelegate>{
     CLLocationManager *lm;
